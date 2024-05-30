@@ -49,8 +49,6 @@ function abreOuFechaResposta(elemento) {
     const classe = 'faq__questions__item--is-open';
     const elementoPai = elemento.target.parentNode;
 
-    console.log(elemento);
-
     elementoPai.classList.toggle(classe);
 }
 
