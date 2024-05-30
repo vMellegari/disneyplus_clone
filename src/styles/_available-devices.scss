@@ -10,9 +10,9 @@
         display: grid;
         gap: 24px;
         grid-template-columns: repeat(4, 1fr);
-        
-        li {
-            list-style-type: none;
+
+        @media (max-width: 768px) {
+            grid-template-columns: repeat(2, 1fr);
         }
 
         &__item {
